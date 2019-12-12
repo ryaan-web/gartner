@@ -86,7 +86,7 @@ const clickTransformer = (allClicks) => {
 
 clickTransformer(); // initial call
 
-
+console.log(finalArr);
 // file writes
 let resultstr = JSON.stringify(finalArr);
 fs.writeFileSync('result.json', resultstr, (err) => {

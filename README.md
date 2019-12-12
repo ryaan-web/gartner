@@ -34,3 +34,8 @@ This run several several tests by feeding different data sets to the code and eq
 The problem requires to filter an array of clicks ( a composite of an IP address, a timestamp, and a click amount.  ) based on certain criteria.
 
 This project makes use of hashes to filter the data and transform it in a single loop and again iterates through the keys in the hash to re-transform the filtered data back into an array of objects, thus, keeping the time complexity to O(n) (2Cn, where C denoted other operations while in the loop.
+
+
+# Output
+
+Once the code is run using `npm run solution` , the final transformed array is logged on the console and also written to a separate file `result.json` in the root directory.
